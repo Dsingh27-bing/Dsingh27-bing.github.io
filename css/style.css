@@ -1,0 +1,83 @@
+.gradient-background {
+  background-color: #FEF2F4;
+}
+
+.bg1{
+  background-color: #FCC8D1;
+  
+  
+}
+
+
+.bg2{
+  background-color: #FFABAB;
+}
+
+.bg3{
+  background-color: #D14D72;
+}
+
+.fonts{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dis{
+  display: flex;
+}
+
+
+.centeralign{
+  
+  align-items: center;
+  justify-content: center;
+}
+.textleft{
+  text-align: left;
+}
+
+
+.align2{
+  margin-top: 50px;
+  margin-left: 200px;
+  align-items: center;
+  justify-content: center;
+}
+.photo {
+  width: 400px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+.profile-img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+#contactme h2 {
+  color: #333;
+  font-family: Georgia;
+}
+
+#contactme .btn-primary {
+  background-color: rgba(0, 128, 0, 0.869);
+  border-color: #1a9f4d;
+}
+
+#contactme .btn-primary.btn:hover {
+  background-color: green;
+}
+
+#contactme .btn-outline-primary {
+  color: black;
+  border-color: hsl(211, 100%, 50%);
+}
+
+#contactme .btn-outline-secondary {
+  color: black;
+  border-color: #d029eac4;
+  
+}
+#contactme .btn-outline-secondary.btn:hover{
+  background-color: #d029ead0;
+}
+
+
