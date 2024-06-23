@@ -35,6 +35,9 @@
   .cards{
     flex-wrap: wrap;
   }
+  .workex{
+    flex-direction: column;
+  }
 }
 .bg2{
   background-color: #FFABAB;
