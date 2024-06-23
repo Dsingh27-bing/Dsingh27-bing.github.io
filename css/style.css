@@ -32,6 +32,9 @@
     margin-bottom: 2rem;
     align-items: center;
   }
+  .cards{
+    flex-wrap: wrap;
+  }
 }
 .bg2{
   background-color: #FFABAB;
