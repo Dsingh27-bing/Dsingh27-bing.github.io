@@ -8,13 +8,38 @@
   
 }
 
+.nav-link{
+  color: blue;
+}
 
+.title{
+  align-items: flex-end;
+}
+
+
+.aboutme {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 772px) {
+  .aboutme {
+    
+    flex-direction: column;
+    align-items: center;
+  }
+  .photo {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+}
 .bg2{
   background-color: #FFABAB;
 }
 
 .bg3{
-  background-color: #D14D72;
+  /* background-color: #D14D72; */
+  background-color: #fcc8d169;
 }
 
 .fonts{
@@ -34,6 +59,34 @@
   text-align: left;
 }
 
+#skills{
+  text-align: center;
+  
+}
+
+#skills h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: crimson;
+  font-size: 3rem;
+}
+.skill_heading{
+  margin-top: 3rem; 
+  margin-bottom: 3rem;
+  color: purple;
+}
+
+.cards{
+  align-items: center;
+
+}
+.card-body{
+  flex-direction: column;
+  margin-right: 5rem;
+}
+.card-img-top{
+  height: 50px;
+  width: auto;
+}
 
 .align2{
   margin-top: 50px;
@@ -79,5 +132,11 @@
 #contactme .btn-outline-secondary.btn:hover{
   background-color: #d029ead0;
 }
+
+
+
+
+
+
 
 

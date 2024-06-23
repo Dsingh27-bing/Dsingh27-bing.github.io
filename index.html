@@ -12,56 +12,61 @@
 <body>
 
   <!-- Title -->
-  <section id="title" class="gradient-background">
 
-    <div class="container ">
-      <header class="d-flex flex-wrap justify-content-center py-3  border-bottom">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+  <section id="title" class="gradient-background">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand d-flex align-items-center" href="/">
           <img src="./images/icon.png" class="profile-img">
           <span class="fs-4 fonts">Dimple Singh</span>
         </a>
-  
-        <ul class="nav nav-pills">
-          <li class="nav-item"><a href="#aboutme" class="nav-link" aria-current="page">About Me</a></li>
-          <li class="nav-item"><a href="#education" class="nav-link">Education & Skills</a></li>
-          <li class="nav-item"><a href="#workex" class="nav-link">Work Experience</a></li>
-          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-          <li class="nav-item"><a href="#contactme" class="nav-link">Contact Me</a></li>
-        </ul>
-      </header>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto title">
+            <li class="nav-item"><a class="nav-link" href="#aboutme">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education & Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#workex">Work Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contactme">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
-
   </section>
-
 
 
   <!-- About Me -->
-  <section id="aboutme" class=" bg1">
-    <div class="container featurette align-items-center dis">
-      <div class="col-md-7 fonts">
-        <h2 class="featurette-heading fw-normal lh-1  ">Hi! I am Dimple </h2>
-        <p class="lead "> A dedicated Software Engineer with a Master's in Computer Science and extensive experience in software development, cloud computing, and cybersecurity. My expertise spans across various technologies including AWS, Docker, Kubernetes, and SAP, demonstrated through my work and innovative academic projects. Explore my work and achievements below. </p>
-      </div>
-      <div class="col-md-5">
-       <img src="./images/Image.png" class="photo">
-      </div>
+
+  <section id="aboutme" class=" bg1" >
+
+  <div class="container align-items-center aboutme" >
+    <div class="col-md-7 fonts py-5" >
+      <h2 >Hi! I am Dimple </h2>
+      <p class="lead "> A dedicated Software Engineer with a Master's in Computer Science and extensive experience in software development, cloud computing, and cybersecurity. My expertise spans across various technologies including AWS, Docker, Kubernetes, and SAP, demonstrated through my work and innovative academic projects. Explore my work and achievements below. </p>
     </div>
+    <div class="col-md-5 aboutme">
+      <img src="./images/Image.png" class="photo" style="margin-top: 5rem; margin-bottom: 5rem;">
+     </div>
+  </div>
   </section>
+
 
 
   <!-- Education -->
 
   <section id="education" class="bg3">
-    <div class="dis container ">
-      <div class="col-lg-4">
+    <div class="dis container " >
+      <div class="col-lg-4" style="margin-top: 3rem; margin-bottom: 3rem;">
         <h4 class="fw-normal mt-3">Master's in Computer Science</h4>
-        <img class="bd-placeholder-img " width="150" height="100" src="./images/bu.jpeg"</img>
+        <img class="bd-placeholder-img" width="150" height="100" src="./images/bu.jpeg"</img>
         
         
       </div><!-- /.col-lg-4 -->
       <!-- /.col-lg-4 -->
        <div class="col-lg-4"></div> <!--for space between  -->
-      <div class="col-lg-4">
+      <div class="col-lg-4" style="margin-top: 3rem; margin-bottom: 3rem;">
         
         <h4 class="fw-normal mt-3">Bachelor's in Information Technology</h4>
         <img class="bd-placeholder-img " width="150" height="100" src="./images/mait.jpeg"</img>
@@ -69,16 +74,223 @@
       </div><!-- /.col-lg-4 -->
     </div>
 
-    <div class="d-flex gap-2 justify-content-center py-5">
-      <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Python/C/C++/Java/JavaScript/Node.JS/ABAP</span>
-      <span class="badge bg-secondary-subtle text-secondary-emphasis rounded-pill">AWS/GCP</span>
-      <span class="badge bg-success-subtle text-success-emphasis rounded-pill">Docker/Kubernetes/Nginx/Jenkins/CI-CD</span>
-      <span class="badge bg-danger-subtle text-danger-emphasis rounded-pill">SQL/MongoDB/Postgres/Aurora</span>
-      <span class="badge bg-warning-subtle text-warning-emphasis rounded-pill">Git</span>
-      <span class="badge bg-info-subtle text-info-emphasis rounded-pill">RESTfulAPI/API</span>
-      <span class="badge bg-light-subtle text-light-emphasis rounded-pill">Linux/UNIX/MacOS/Windows</span>
-      <span class="badge bg-dark-subtle text-dark-emphasis rounded-pill">SAP/S4HANA</span>
-      <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Crytography</span>
+    <div id ="skills" class="container py-5">
+      <div class="fonts ">
+      <h3 class="skill_heading"> Skills</h3>
+      
+      <h4 class="skill_heading"> Languages and Frameworks</h4>
+      <div class="dis cards"  ">
+        
+        <div class="card-body">
+          <img src="./images/logos_skills/python.jpeg" class="card-img-top" alt="python langauge">
+          <p class="card-text">Python</p>
+        </div>
+
+        
+        <div class="card-body">
+          <img src="./images/logos_skills/c.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">C</p>
+        </div>
+
+        <!-- <div class="card-body">
+          <img src="./images/logos_skills/Cpp.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">C++</p>
+        </div> -->
+
+        <div class="card-body">
+          <img src="./images/logos_skills/java.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">Java</p>
+        </div>
+
+        <div class="card-body">
+          <img src="./images/logos_skills/js.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">JavaScript</p>
+        </div>
+
+        <!-- <div class="card-body">
+          <img src="./images/logos_skills/html.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">HTML</p>
+        </div> -->
+
+        <!-- <div class="card-body">
+          <img src="./images/logos_skills/css.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">CSS</p>
+        </div> -->
+
+        <div class="card-body">
+          <img src="./images/logos_skills/flask.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">Flask</p>
+        </div>
+
+        <div class="card-body">
+          <img src="./images/logos_skills/react.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">React</p>
+        </div>
+
+        <!-- <div class="card-body">
+          <img src="./images/logos_skills/nodejs.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">NodeJS</p>
+        </div> -->
+
+      </div>
+      <h4 class="skill_heading"> Cloud & DevOps Tools</h4>
+
+      <div class="dis cards"  >
+        
+        <div class="card-body">
+          <img src="./images/logos_skills/aws.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">AWS</p>
+        </div>
+
+        
+        <div class="card-body">
+          <img src="./images/logos_skills/gcp.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">GCP</p>
+        </div>
+
+        <div class="card-body">
+          <img src="./images/logos_skills/docker.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">Docker</p>
+        </div>
+
+        <div class="card-body">
+          <img src="./images/logos_skills/kubernetes.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">Kubernetes</p>
+        </div>
+
+        <!-- <div class="card-body">
+          <img src="./images/logos_skills/nginx.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">Nginx</p>
+        </div> -->
+
+        <!-- <div class="card-body">
+          <img src="./images/logos_skills/cicd.jpeg" class="card-img-top" alt="python langauge">
+          <p class="card-text">CI/CD</p>
+        </div> -->
+
+        <div class="card-body">
+          <img src="./images/logos_skills/jenkins.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">Jenkins</p>
+        </div>
+
+        <!-- <div class="card-body">
+          <img src="./images/logos_skills/maven.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">Maven</p>
+        </div> -->
+
+        <!-- <div class="card-body">
+          <img src="./images/logos_skills/cli.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">CLI</p>
+        </div> -->
+        
+      </div>
+
+      <h4 class="skill_heading"> Databases & Tools</h4>
+
+      <div class="dis cards" ">
+        
+        <!-- <div class="card-body">
+          <img src="./images/logos_skills/sql.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">SQL</p>
+        </div> -->
+
+        
+        <div class="card-body">
+          <img src="./images/logos_skills/mysql.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">MySQL</p>
+        </div>
+
+        <div class="card-body">
+          <img src="./images/logos_skills/mongodb.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">MongoDB</p>
+        </div>
+
+        <div class="card-body">
+          <img src="./images/logos_skills/postgres.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">Postgres</p>
+        </div>
+
+        <!-- <div class="card-body">
+          <img src="./images/logos_skills/aurora.jpeg" class="card-img-top" alt="python langauge">
+          <p class="card-text">AWS Aurora</p>
+        </div> -->
+
+        <!-- <div class="card-body">
+          <img src="./images/logos_skills/s3.jpeg" class="card-img-top" alt="python langauge">
+          <p class="card-text">AWS S3</p>
+        </div> -->
+
+        <div class="card-body">
+          <img src="./images/logos_skills/git.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">Git</p>
+        </div>
+
+        <!-- <div class="card-body">
+          <img src="./images/logos_skills/github.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">Github</p>
+        </div> -->
+
+        <div class="card-body">
+          <img src="./images/logos_skills/rest api.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">RESTfulAPI</p>
+        </div>
+        
+      </div>
+
+
+      <h4 class="skill_heading"> Operating Systems & Softwares</h4>
+
+      <div class="dis cards" >
+        
+        <div class="card-body">
+          <img src="./images/logos_skills/linux.jpeg" class="card-img-top" alt="python langauge">
+          <p class="card-text">Linux</p>
+        </div>
+
+        
+        <div class="card-body">
+          <img src="./images/logos_skills/unix.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">Unix</p>
+        </div>
+
+        <!-- <div class="card-body">
+          <img src="./images/logos_skills/macos.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">MacOS</p>
+        </div> -->
+
+        <!-- <div class="card-body">
+          <img src="./images/logos_skills/windows.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">Windows</p>
+        </div> -->
+
+        <!-- <div class="card-body">
+          <img src="./images/logos_skills/sap.jpeg" class="card-img-top" alt="python langauge">
+          <p class="card-text">SAP</p>
+        </div> -->
+
+        <div class="card-body">
+          <img src="./images/logos_skills/s4hana.jpeg" class="card-img-top" alt="python langauge">
+          <p class="card-text">SAP S4HANA</p>
+        </div>
+
+        <div class="card-body">
+          <img src="./images/logos_skills/fiori.jpeg" class="card-img-top" alt="python langauge">
+          <p class="card-text">SAP Fiori</p>
+        </div>
+
+        <!-- <div class="card-body">
+          <img src="./images/logos_skills/workday.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">Workday</p>
+        </div> -->
+
+        <!-- <div class="card-body">
+          <img src="./images/logos_skills/sf.png" class="card-img-top" alt="python langauge">
+          <p class="card-text">SAP SF</p>
+        </div> -->
+        
+      </div>
+
+    </div>
     </div>
       
     
@@ -97,26 +309,26 @@
       </div>
       <div class="col-lg-6">
         <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Research Assistant</h1>
-        <p class="lead textleft">Analyzed O-RAN 5G technology, assessing security for x-apps and r-apps; identified vulnerabilities potentially affecting
+        <p class="lead textleft">Analyzed O-RAN 5G technology, assessing security for x-apps and r-apps; identified <b>vulnerabilities</b> potentially affecting
           over millions of users.<br>
-          <br>Documented a critical security flaw in O-RAN 5G architecture, leading to a 20% enhancement in system security
+          <br>Documented a <b>critical security flaw </b>in <b>O-RAN 5G architecture</b>, leading to a<b> 20% enhancement in system security</b>
           protocols.</p>
         
       </div>
     </div>
   </div>
 
-
+  <p >___________________________________________________________________________________________________________________________________________________________________________</p>
     <div class="dis flex-lg-row-reverse align-items-center g-5 py-5 container">
       <div class="col-10 col-sm-8 col-lg-6">
         <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Software Engineer</h1>
-        <p class="lead textleft">Engineered SAP GUI and Fiori app security, scaling secure access from 600 to a potential 36,000+ users, and implemented
-          LSMW for efficient data updates.<br><br>Refined 300+ reports, improving data retrieval and report generation efficiency for a user base that grew from 1,000 to
-          36,000, while maintaining strict data access controls.<br> <br>Spearheaded key service testing and SAP database deployments on AWS, cutting infrastructure costs by 15% and
-          enhancing system stability.<br><br>Optimised Fiori apps for high availability, increasing rate limits to 10,000 requests/hour, enhancing performance for 400+
-          simultaneous users.<br><br>Fortified identity management by establishing robust security groups and RBAC, ensuring precise access rights across 5
-          organizational units.<br><br>Automated crucial cache invalidation processes, slashing data vulnerability by 40% and bolstering system security,
-          impacting 300+ users.<br><br>Led and mentored a cross-functional team of 10-15 Associate Software Engineers, resolving systemic issues over a year.
+        <p class="lead textleft">Engineered SAP GUI and <b>Fiori app security, scaling secure access from 600 to a potential 36,000+ users</b>, and implemented
+          LSMW for efficient data updates.<br><br>Refined 300+ reports, <b>improving data retrieval</b> and report generation efficiency for a user base that grew from 1,000 to
+          36,000, while maintaining strict data access controls.<br> <br>Spearheaded key service testing and SAP database deployments on<b> AWS</b>, cutting infrastructure costs by <b>15%</b> and
+          enhancing system stability.<br><br><b>Optimised Fiori apps for high availability</b>, increasing rate limits to 10,000 requests/hour, <b>enhancing performance for 400+
+          simultaneous users</b>.<br><br>Fortified identity management by establishing <b>robust security groups and RBAC</b>, ensuring precise access rights across 5
+          organizational units.<br><br>Automated crucial cache invalidation processes, <b>slashing data vulnerability by 40%</b> and bolstering system security,
+          impacting 300+ users.<br><br>Led and <b>mentored a cross-functional team of 10-15 Associate Software Engineers</b>, resolving systemic issues over a year.
         </p>
        
       </div>
@@ -127,6 +339,8 @@
       </div>
     </div>
 
+    <p >___________________________________________________________________________________________________________________________________________________________________________</p>
+
     <div class="container">
       <div class="dis flex-lg-row-reverse align-items-center g-5 py-5 ">
         <div class="col-10 col-sm-8 col-lg-6">
@@ -135,9 +349,9 @@
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Associate Software Engineer</h1>
           <p class="lead textleft">Orchestrated comprehensive integration testing for HR with PP, FI, and MM modules, enhancing system interaction and
-            reducing error rates by 30%.<br><br>Performed 200+ unit and critical integration tests, reducing system downtime and boosting system reliability.<br><br>Conducted in-depth SAP system testing across multiple phases, identifying and mitigating potential issues, leading to a
-            20% improvement in application robustness.<br><br>Managed and resolved daily incident reports, achieving a 90% issue resolution rate within 24 hours, thereby maintaining
-            high client satisfaction.<br><br>Earned the All-Star Award for exceptional teamwork, and the ACE Award for technical excellence and client support.
+            reducing error rates by 30%.</b><br><br>Performed 200+ unit and critical <b>integration tests</b>, reducing system downtime and boosting system reliability.<br><br>Conducted in-depth SAP system testing across multiple phases, identifying and mitigating potential issues, leading to a
+            <b>20% improvement</b> in application <b>robustness</b>.<br><br>Managed and resolved daily incident reports, achieving a <b>90% issue resolution rate within 24 hours</b>, thereby maintaining
+            high client satisfaction.<br><br>Earned the <b>All-Star Award for exceptional teamwork</b>, and the <b>ACE Award for technical excellence</b> and client support.
           </p>
           
         </div>
@@ -287,7 +501,7 @@
               <label for="message" class="form-label">Message</label>
               <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary send_msg">Send Message</button>
+            <button type="button" class="btn btn-primary send_msg" onclick="sendEmail()">Send Message</button>
           </form>
           <div class="mt-4 text-center">
             <a href="https://www.linkedin.com/in/dimple-singh-cs/" target="_blank" class="btn btn-outline-primary mx-2">LinkedIn</a>
@@ -299,6 +513,19 @@
   </section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>
+    function sendEmail() {
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var message = document.getElementById('message').value;
+    
+        var mailto_link = 'mailto:singh11.dimple@gmail.com' +
+                          '?subject=Contact from ' + encodeURIComponent(name) +
+                          '&body=' + encodeURIComponent(message + '\n\nFrom: ' + email);
+    
+        window.location.href = mailto_link;
+    }
+    </script>
 </body>
 
 </html>
